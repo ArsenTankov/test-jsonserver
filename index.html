@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form>
+        <input type="text" id="emailI"/>
+        <input type="password" id="password"/>
+        <button id="Send"></button>
+    </form>
+    <div style="display: flex; justify-content: center;">
+        <img src="zxc.png" style=" width: 500px; height: 500px;">
+        </div>   
+        <div style="display: flex;
+        justify-content: center;
+        "> 
+        <button id="home" style="    padding: 10px 35px 10px 35px;
+        font-size: 22px;
+        font-family: fantasy;
+        border: none;
+        box-shadow: none;">Home</button>
+            </div>
+
+    <script>
+        let emailI = document.getElementById('emailI')
+        let password = document.getElementById('password')
+        let btn = document.getElementById('Send')
+        btn.addEventListener('click', ()=>{
+            
+        })
+//     e.preventDefault()
+// console.log(   localStorage.getItem('RegisterForma'));
+ 
+
+let BTNhome = document.getElementById('home')
+let home = '/'
+        location.hash = home
+
+        BTNhome.addEventListener('click', ()=>{
+            location.href = 'home.html'
+           
+        })
+        console.log('You at Index!');
+       
+
+
+    </script>
+</body>
+</html>
